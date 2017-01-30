@@ -1,0 +1,4 @@
+FROM microsoft/windowsservercore:latest
+SHELL ["powershell", "-command"]
+
+RUN C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe src/SampleApp/SampleApp.csproj /property:Configuration=Release /target:build/1.0.0.0
