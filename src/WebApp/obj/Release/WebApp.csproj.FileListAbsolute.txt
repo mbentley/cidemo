@@ -43,3 +43,4 @@ C:\Users\Administrator\source\cidemo\src\WebApp\bin\System.Web.Mvc.xml
 C:\Users\Administrator\source\cidemo\src\WebApp\obj\Release\WebApp.dll
 C:\Users\Administrator\source\cidemo\src\WebApp\obj\Release\WebApp.pdb
 C:\Users\Administrator\source\cidemo\src\WebApp\obj\Release\WebApp.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\source\cidemo\src\WebApp\bin\WebApp.dll.config

@@ -97,16 +97,226 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/29/2017 22:39:05</publishTime>
     </File>
     <File Include="bin/WebApp.dll">
-      <publishTime>02/10/2017 07:18:50</publishTime>
+      <publishTime>02/10/2017 11:32:47</publishTime>
+    </File>
+    <File Include="css/freelancer.css">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="css/freelancer.min.css">
+      <publishTime>08/19/2016 14:37:48</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>02/05/2017 18:08:59</publishTime>
     </File>
+    <File Include="gulpfile.js">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="img/download.png">
+      <publishTime>02/10/2017 09:26:33</publishTime>
+    </File>
+    <File Include="img/portfolio/cabin.png">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="img/portfolio/cake.png">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="img/portfolio/circus.png">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="img/portfolio/game.png">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="img/portfolio/safe.png">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="img/portfolio/submarine.png">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="img/profile.png">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="js/contact_me.js">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="js/freelancer.js">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="js/freelancer.min.js">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="js/jqBootstrapValidation.js">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="less/freelancer.less">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="less/mixins.less">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="less/variables.less">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="LICENSE">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="mail/contact_me.php">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="package.json">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
     <File Include="packages.config">
       <publishTime>02/05/2017 18:09:09</publishTime>
     </File>
+    <File Include="README.md">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap.css">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/css/bootstrap.min.css">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/js/bootstrap.js">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/bootstrap/js/bootstrap.min.js">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/css/font-awesome.css">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/css/font-awesome.min.css">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/less/animated.less">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/less/bordered-pulled.less">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/less/core.less">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/less/fixed-width.less">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/less/font-awesome.less">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/less/icons.less">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/less/larger.less">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/less/list.less">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/less/mixins.less">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/less/path.less">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/less/rotated-flipped.less">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/less/screen-reader.less">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/less/stacked.less">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/less/variables.less">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/scss/font-awesome.scss">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/scss/_animated.scss">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/scss/_bordered-pulled.scss">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/scss/_core.scss">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/scss/_fixed-width.scss">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/scss/_icons.scss">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/scss/_larger.scss">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/scss/_list.scss">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/scss/_mixins.scss">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/scss/_path.scss">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/scss/_rotated-flipped.scss">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/scss/_screen-reader.scss">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/scss/_stacked.scss">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/font-awesome/scss/_variables.scss">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/jquery/jquery.js">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
+    <File Include="vendor/jquery/jquery.min.js">
+      <publishTime>08/19/2016 14:37:48</publishTime>
+    </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>02/08/2017 10:41:18</publishTime>
+      <publishTime>02/10/2017 09:58:09</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>02/05/2017 18:08:59</publishTime>
