@@ -1,0 +1,19 @@
+version: '2.1'
+services:
+    webapp:
+        build:
+            context: ./
+        ports: 
+            - 80:80
+        networks: 
+            - default
+
+    sql:
+        image: microsoft/mssql-server-2016-express-windows
+        networks: 
+            - default
+
+networks:
+    default:
+        external:
+            name: nat

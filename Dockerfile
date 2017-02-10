@@ -12,7 +12,7 @@ RUN Remove-Website 'Default Web Site'
 
 # Set up website: app
 COPY build /websites/app
-RUN New-Website -Name 'app' -PhysicalPath "C:\websites\app" -Port 8080 -Force
-EXPOSE 8080
+RUN New-Website -Name 'app' -PhysicalPath "C:\websites\app" -Port 80 -Force
+EXPOSE 80
 
 CMD /Wait-Service.ps1 -ServiceName W3SVC -AllowServiceRestart
