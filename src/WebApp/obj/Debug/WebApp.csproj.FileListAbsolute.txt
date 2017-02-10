@@ -90,3 +90,4 @@ C:\Source\src\WebApp\bin\System.Web.Mvc.xml
 C:\Source\src\WebApp\obj\Debug\WebApp.csprojResolveAssemblyReference.cache
 C:\Source\src\WebApp\obj\Debug\WebApp.dll
 C:\Source\src\WebApp\obj\Debug\WebApp.pdb
+C:\Users\Administrator\source\cidemo\src\WebApp\bin\WebApp.dll.config
