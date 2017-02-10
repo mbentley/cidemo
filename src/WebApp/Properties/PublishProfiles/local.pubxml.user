@@ -97,7 +97,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/29/2017 22:39:05</publishTime>
     </File>
     <File Include="bin/WebApp.dll">
-      <publishTime>02/10/2017 11:32:47</publishTime>
+      <publishTime>02/10/2017 11:46:23</publishTime>
     </File>
     <File Include="css/freelancer.css">
       <publishTime>08/19/2016 14:37:48</publishTime>
@@ -113,6 +113,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="img/download.png">
       <publishTime>02/10/2017 09:26:33</publishTime>
+    </File>
+    <File Include="img/engine.png">
+      <publishTime>02/10/2017 09:28:01</publishTime>
     </File>
     <File Include="img/portfolio/cabin.png">
       <publishTime>08/19/2016 14:37:48</publishTime>

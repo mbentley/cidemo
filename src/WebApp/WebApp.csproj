@@ -122,6 +122,7 @@
     <Content Include="Global.asax" />
     <Content Include="gulpfile.js" />
     <Content Include="img\download.png" />
+    <Content Include="img\engine.png" />
     <Content Include="img\portfolio\cabin.png" />
     <Content Include="img\portfolio\cake.png" />
     <Content Include="img\portfolio\circus.png" />
