@@ -5,10 +5,10 @@ services:
     image: ${DTR_URL}/demo/cidemo:${TAG}
     deploy:
       mode: replicated
-      replicas: 1
+      replicas: 2
       update_config:
         parallelism: 1
-        delay: 5s
+        delay: 15s
         failure_action: continue
       labels:
         - "com.docker.ucp.mesh.http.80=internal_port=80,external_route=http://cidemo-${ENVIRONMENT}.${DOMAIN_NAME}"
@@ -16,11 +16,6 @@ services:
     networks:
       - cidemo
       - ucp-hrm
-
-#    sql:
-#        image: microsoft/mssql-server-2016-express-windows
-#        networks:
-#            - default
 
 networks:
   cidemo:
