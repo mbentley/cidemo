@@ -1,0 +1,31 @@
+version: "3.3"
+
+services:
+  webapp:
+    image: ${DTR_URL}/demo/cidemo:${TAG}
+    deploy:
+      mode: replicated
+      replicas: 1
+      update_config:
+        parallelism: 1
+        delay: 5s
+        failure_action: continue
+      labels:
+        - "com.docker.ucp.mesh.http.80=internal_port=80,external_route=http://cidemo-${ENVIRONMENT}.${DOMAIN_NAME}"
+        - "com.docker.ucp.access.label=/demo-collection/${ENVIRONMENT}"
+    networks:
+      - cidemo
+      - ucp-hrm
+
+#    sql:
+#        image: microsoft/mssql-server-2016-express-windows
+#        networks:
+#            - default
+
+networks:
+  cidemo:
+    driver: overlay
+    labels:
+      - "com.docker.ucp.access.label=/demo-collection/${ENVIRONMENT}"
+  ucp-hrm:
+    external: true
